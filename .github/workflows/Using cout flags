@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	double value;
+	cin >> value;
+	cout << value << endl;
+
+	//your code
+	return 0;

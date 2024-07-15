@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
+#include <vector>
+
+using namespace std;
+double multiply_value(double value)
+{
+	return value * 11.123;
+}
+
+int main()
+{
+	double value;
+	cin >> value;
+	
+	//your code
+	
+	return 0;
+}

@@ -1,0 +1,18 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <iomanip>
+#include <sstream>
+
+using namespace std;
+
+//your code
+
+int main() {
+	
+	int valuei;
+	double valued;
+
+	//your code
+	return 0;
+}

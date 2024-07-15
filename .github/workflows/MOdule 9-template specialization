@@ -1,0 +1,19 @@
+#include <iostream>
+#include <fstream>
+#include <vector>
+
+using namespace std;
+
+//your code
+
+int main() {
+	
+	int valuei = -5;
+	vector <Point> points = { { -1, 2 },{ -3, -5 },{ 2, 2 } };
+
+	cout << "Value: " << valuei << " sgn: " << signum(valuei) << endl;
+	for(auto point: points)
+		cout << "Point: " << point.getX() << ", " << point.getY() << " sgn:" << signum(point) << endl;
+
+	return 0;
+}
